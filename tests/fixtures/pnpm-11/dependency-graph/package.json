@@ -1,0 +1,19 @@
+{
+  "name": "fixture-dependency-graph",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "fixture-value": "2.0.0",
+    "fixture-parent": "1.0.0",
+    "value-alias": "npm:fixture-value@1.0.0",
+    "@fixture/scoped": "1.0.0-rc.1",
+    "fixture-cycle-a": "1.0.0",
+    "fixture-peer": "1.0.0"
+  },
+  "devDependencies": {
+    "fixture-dev": "1.0.0"
+  },
+  "optionalDependencies": {
+    "fixture-platform": "1.0.0"
+  }
+}

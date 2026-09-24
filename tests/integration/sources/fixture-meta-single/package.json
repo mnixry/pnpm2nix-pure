@@ -1,0 +1,6 @@
+{
+  "main": "index.cjs",
+  "name": "fixture-meta-single",
+  "version": "1.0.0",
+  "deprecated": "false: 'quoted', {braces}, [brackets] # a hash"
+}

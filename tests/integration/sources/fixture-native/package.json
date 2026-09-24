@@ -1,0 +1,1 @@
+{"name":"fixture-native","version":"1.0.0","main":"addon.node","scripts":{"install":"node build.cjs"}}

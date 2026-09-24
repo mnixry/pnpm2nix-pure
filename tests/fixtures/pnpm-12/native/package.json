@@ -1,0 +1,7 @@
+{
+  "name": "native-fixture",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {"build": "node build.cjs"},
+  "dependencies": {"fixture-native": "1.0.0"}
+}

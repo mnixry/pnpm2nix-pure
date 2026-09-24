@@ -1,0 +1,143 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      fixture-meta-blanklines:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-meta-clip:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-meta-empty:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-meta-escapes:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-meta-exponent:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-meta-indent:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-meta-keep:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-meta-newline:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-meta-single:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-meta-spaces:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-meta-strip:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-meta-typed:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-meta-unicode:
+        specifier: 1.0.0
+        version: 1.0.0
+
+packages:
+
+  fixture-meta-blanklines@1.0.0:
+    resolution: {integrity: sha512-1q14TK0hwpePnBh3KlUDDGNRXxJtnJ6bxMYZ/fKb9KLhA4D54dXmpBmNZAJTc1ZzUzuE3O273DV/Zq8oUnVtAg==}
+    deprecated: |+
+
+
+
+  fixture-meta-clip@1.0.0:
+    resolution: {integrity: sha512-nQTNjPqJFthxIKnj87KD62Siq0wf7oyGPM8tBlNZ7w4LO5wcd75jGmv1oFdqvXjwSPYLxhO/xQz8G+WpFZDSkQ==}
+    deprecated: |
+      first line
+      second line
+
+  fixture-meta-empty@1.0.0:
+    resolution: {integrity: sha512-do7wdJQ1I8+aqDahv09L717dhgenQvu1oPRV77jLVLvpQ6TrZpogg6spihsGLP7zIDKA/uXhsO2eFJk7PGMurA==}
+
+  fixture-meta-escapes@1.0.0:
+    resolution: {integrity: sha512-WyP3v3vPgOYshuT5ciTpZ1qUFD0ZOkG+84oM9Y+4+Z0U7UVf+StlRcXnO3o3CDKLELRsBG11QtbkPjWV39xePw==}
+    deprecated: "bell\a tab\t escape\e next\N space\_ separator\L paragraph\P literal \\u0000 and \\0"
+
+  fixture-meta-exponent@1.0.0:
+    resolution: {integrity: sha512-zHSKtjFPnhz3Z7VNSE6zffuftDTrMW+95VIO0hk1dtJ4pfBnz+Z4axYxDwEqpgNZaBUriDchyGh/996VdKbMLA==}
+    deprecated: 1e2e3
+
+  fixture-meta-indent@1.0.0:
+    resolution: {integrity: sha512-UPxbmrCbvF7bUrPGT9BKWfYcc91yQUkiq4Ae6F6GdqFNmHjLZ9x9AlKKa6PilSuojZ+kIf6ZGN4hRlwxmTb/kg==}
+    deprecated: |2-
+        first line
+        second line
+
+  fixture-meta-keep@1.0.0:
+    resolution: {integrity: sha512-BlwGjNhGDEjoGoYjFyma2LlCqPu/rGdIneHsPI/GpdE10CYtc7w52TVCnTqjE6Zljt6n+UvSi2HL6ABQ0G/c3g==}
+    deprecated: |+
+      first line
+      second line
+
+
+  fixture-meta-newline@1.0.0:
+    resolution: {integrity: sha512-vmK1ghzU9Cdd6cu+lzQX760hKhTi6VoJx2aBYcaWRJyxwD0mNNUEKVA4dGHc+svlt45srkDBk4D3jpQjcp8Oqg==}
+    deprecated: |+
+
+
+  fixture-meta-single@1.0.0:
+    resolution: {integrity: sha512-whM/+dWBAVyQNRSJPwbpwSME+jnBgz7qSdbbXhgdwpvQmeCKmpuDpsM8fAZEApwN7AG992eVxjvPv9k3i6VTdQ==}
+    deprecated: 'false: ''quoted'', {braces}, [brackets] # a hash'
+
+  fixture-meta-spaces@1.0.0:
+    resolution: {integrity: sha512-JVe2TKW/X88lBt83GQDTu3PQ/Nry646y6mMB8BUR6FKq6C8+MjZF5cbyd/AiM2TQJziD3ezpzs5Y7PgLB8b0Eg==}
+    deprecated: |2
+        
+
+  fixture-meta-strip@1.0.0:
+    resolution: {integrity: sha512-R2dQeRg1hNI4zsSVncWvIG09LiHIy6MI6YWxWAw9BCrk2ALgn7c+ptrE/Dba/mQaYc2LTX0UwKxikOjlg1HjTg==}
+    deprecated: |-
+      first line
+      second line
+
+  fixture-meta-typed@1.0.0:
+    resolution: {integrity: sha512-6ZOw//Gi5e05F//2x9sie2VU3KKnF6zyH0XBZ7YOFGkfJKPjm++VTE1nygYD9dNo4AUR8mSsdISWo1l613c0OQ==}
+    deprecated: 'false'
+
+  fixture-meta-unicode@1.0.0:
+    resolution: {integrity: sha512-bZqE9DonlYs54xo+Ig07q4ER50+inl2DsNXXoOjvzykx078lnlpYUl0aNHrWelHxoye5L1zwDo4+ApCxA+G6OA==}
+    deprecated: café 日本語 🚀
+
+snapshots:
+
+  fixture-meta-blanklines@1.0.0: {}
+
+  fixture-meta-clip@1.0.0: {}
+
+  fixture-meta-empty@1.0.0: {}
+
+  fixture-meta-escapes@1.0.0: {}
+
+  fixture-meta-exponent@1.0.0: {}
+
+  fixture-meta-indent@1.0.0: {}
+
+  fixture-meta-keep@1.0.0: {}
+
+  fixture-meta-newline@1.0.0: {}
+
+  fixture-meta-single@1.0.0: {}
+
+  fixture-meta-spaces@1.0.0: {}
+
+  fixture-meta-strip@1.0.0: {}
+
+  fixture-meta-typed@1.0.0: {}
+
+  fixture-meta-unicode@1.0.0: {}

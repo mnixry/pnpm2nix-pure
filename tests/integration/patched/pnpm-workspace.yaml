@@ -1,0 +1,2 @@
+patchedDependencies:
+  fixture-value@1.0.0: patches/fixture-value.patch

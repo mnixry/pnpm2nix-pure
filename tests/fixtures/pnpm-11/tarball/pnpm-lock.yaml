@@ -1,0 +1,24 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      is-number:
+        specifier: https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz
+        version: https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz
+
+packages:
+
+  is-number@https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz:
+    resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==, tarball: https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz}
+    version: 7.0.0
+    engines: {node: '>=0.12.0'}
+
+snapshots:
+
+  is-number@https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz: {}

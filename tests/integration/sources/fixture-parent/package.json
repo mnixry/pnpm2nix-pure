@@ -1,0 +1,8 @@
+{
+  "main": "index.cjs",
+  "name": "fixture-parent",
+  "version": "1.0.0",
+  "dependencies": {
+    "fixture-value": "1.0.0"
+  }
+}

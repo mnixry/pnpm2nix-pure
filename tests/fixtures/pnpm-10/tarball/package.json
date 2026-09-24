@@ -1,0 +1,7 @@
+{
+  "name": "tarball-fixture",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {"build": "node build.cjs"},
+  "dependencies": {"is-number": "https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz"}
+}

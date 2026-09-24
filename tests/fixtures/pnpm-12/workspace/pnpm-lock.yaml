@@ -1,0 +1,34 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      fixture-library:
+        specifier: workspace:*
+        version: link:packages/library
+
+  packages/helper:
+    dependencies:
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/library:
+    dependencies:
+      fixture-helper:
+        specifier: workspace:*
+        version: link:../helper
+
+packages:
+
+  fixture-value@1.0.0:
+    resolution: {integrity: sha512-CkYCCyrJBtCUhUdPc4dESE7qHGj4yZxjRp4wjXgJm/gE8BAu40lOcX3ViBqrkDPoea4O/pbodW144jDfCP9cGg==}
+
+snapshots:
+
+  fixture-value@1.0.0: {}

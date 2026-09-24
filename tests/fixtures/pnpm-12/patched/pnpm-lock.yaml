@@ -1,0 +1,25 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+patchedDependencies:
+  fixture-value@1.0.0: 4a4a62fea5ed5a0841245df8f6a840d68fbf42d9d15ea0b4265b26f86d29cc59
+
+importers:
+
+  .:
+    dependencies:
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0(patch_hash=4a4a62fea5ed5a0841245df8f6a840d68fbf42d9d15ea0b4265b26f86d29cc59)
+
+packages:
+
+  fixture-value@1.0.0:
+    resolution: {integrity: sha512-CkYCCyrJBtCUhUdPc4dESE7qHGj4yZxjRp4wjXgJm/gE8BAu40lOcX3ViBqrkDPoea4O/pbodW144jDfCP9cGg==}
+
+snapshots:
+
+  fixture-value@1.0.0(patch_hash=4a4a62fea5ed5a0841245df8f6a840d68fbf42d9d15ea0b4265b26f86d29cc59): {}

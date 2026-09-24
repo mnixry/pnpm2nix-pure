@@ -1,0 +1,20 @@
+{
+  "name": "fixture-metadata",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "fixture-meta-blanklines": "1.0.0",
+    "fixture-meta-clip": "1.0.0",
+    "fixture-meta-empty": "1.0.0",
+    "fixture-meta-escapes": "1.0.0",
+    "fixture-meta-exponent": "1.0.0",
+    "fixture-meta-indent": "1.0.0",
+    "fixture-meta-keep": "1.0.0",
+    "fixture-meta-newline": "1.0.0",
+    "fixture-meta-single": "1.0.0",
+    "fixture-meta-spaces": "1.0.0",
+    "fixture-meta-strip": "1.0.0",
+    "fixture-meta-typed": "1.0.0",
+    "fixture-meta-unicode": "1.0.0"
+  }
+}

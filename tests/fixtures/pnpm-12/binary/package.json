@@ -1,0 +1,7 @@
+{
+  "name": "binary-fixture",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {"build": "esbuild app.ts --platform=node --format=cjs --outfile=dist/app.cjs && node dist/app.cjs"},
+  "dependencies": {"esbuild": "0.27.2"}
+}

@@ -1,0 +1,105 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@fixture/scoped':
+        specifier: 1.0.0-rc.1
+        version: 1.0.0-rc.1
+      fixture-cycle-a:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-parent:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-peer:
+        specifier: 1.0.0
+        version: 1.0.0(fixture-dev@1.0.0)
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+      value-alias:
+        specifier: npm:fixture-value@1.0.0
+        version: fixture-value@1.0.0
+    devDependencies:
+      fixture-dev:
+        specifier: 1.0.0
+        version: 1.0.0
+    optionalDependencies:
+      fixture-platform:
+        specifier: 1.0.0
+        version: 1.0.0
+
+packages:
+
+  '@fixture/scoped@1.0.0-rc.1':
+    resolution: {integrity: sha512-cWuHNemGDctlS3wcwYdAK5DGltBWYPi+MeIKPZ7YIvbfodgKsTdSUOJEC0N1WnEHP7g0R8l/VVk2JqZTyuzwqQ==}
+
+  fixture-cycle-a@1.0.0:
+    resolution: {integrity: sha512-ho/37cfMtL6aSHWqb60hAxb7Io9AVC1b0m5We1+NfFjal175QaG7/p8gez5xqrNi+qZ+GKnqjv0s0+brLBsr5Q==}
+
+  fixture-cycle-b@1.0.0:
+    resolution: {integrity: sha512-4/yG5xDO7KRQ1vFxxfyp0+Suqz5mR1VRgdq5BHRX9X+jsI+l+939TlPtsPw7p9bKSCe2iUdvfdsNLkb3TM25FQ==}
+
+  fixture-dev@1.0.0:
+    resolution: {integrity: sha512-kENU0MrhmE5USMgEug2dGWroJaAghmfjoKzJyQVGPaIOlvwfbMXUl9kdLRtcYkTw3l4lx0tbxU2hCXBXKQKiWQ==}
+
+  fixture-parent@1.0.0:
+    resolution: {integrity: sha512-kAvz6fQGttMKtGNGob54ClG0ak31YMIa798WgpRXkwOod4609jpkqpqS7wRhslOZi+Zsf+gq85tW3TQisXmCzw==}
+
+  fixture-peer@1.0.0:
+    resolution: {integrity: sha512-TGDD+8YRZ/CbB3hNX4Eqf5jsjpIN9TEo/Bsma7ozuldQZx/EXocaY9IAvHmuJkV5UuqjMfOD+9PKPg9aLfcPsw==}
+    peerDependencies:
+      fixture-dev: '*'
+    peerDependenciesMeta:
+      fixture-dev:
+        optional: true
+
+  fixture-platform@1.0.0:
+    resolution: {integrity: sha512-Zn1L45Vs28wm3rzQWFzqDaWVyEPG2jmPXorspntDgxumnE570cNNNo6Lzm2CmcMIwk/ncDO3Qv4U13mhi0VN8w==}
+    engines: {node: '>=18'}
+    cpu: [arm64, x64]
+    os: [darwin, linux]
+    libc: [glibc, musl]
+
+  fixture-value@1.0.0:
+    resolution: {integrity: sha512-CkYCCyrJBtCUhUdPc4dESE7qHGj4yZxjRp4wjXgJm/gE8BAu40lOcX3ViBqrkDPoea4O/pbodW144jDfCP9cGg==}
+
+  fixture-value@2.0.0:
+    resolution: {integrity: sha512-y93s1yZ0Ob/Wv570lkPLByGxtLqM9HzOPXAVSN1ZmaicRfnrzkCXDlUfZLAHDOlTKT8DMAc7JtOQvYbu750GGA==}
+
+snapshots:
+
+  '@fixture/scoped@1.0.0-rc.1': {}
+
+  fixture-cycle-a@1.0.0:
+    dependencies:
+      fixture-cycle-b: 1.0.0
+
+  fixture-cycle-b@1.0.0:
+    dependencies:
+      fixture-cycle-a: 1.0.0
+
+  fixture-dev@1.0.0: {}
+
+  fixture-parent@1.0.0:
+    dependencies:
+      fixture-value: 1.0.0
+
+  fixture-peer@1.0.0(fixture-dev@1.0.0):
+    dependencies:
+      fixture-value: 1.0.0
+    optionalDependencies:
+      fixture-dev: 1.0.0
+
+  fixture-platform@1.0.0:
+    optional: true
+
+  fixture-value@1.0.0: {}
+
+  fixture-value@2.0.0: {}

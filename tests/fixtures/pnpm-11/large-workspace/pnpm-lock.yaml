@@ -1,0 +1,452 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  packages/member-0:
+    dependencies:
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-1:
+    dependencies:
+      fixture-member-0:
+        specifier: workspace:*
+        version: link:../member-0
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-10:
+    dependencies:
+      fixture-member-9:
+        specifier: workspace:*
+        version: link:../member-9
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-11:
+    dependencies:
+      fixture-member-10:
+        specifier: workspace:*
+        version: link:../member-10
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-12:
+    dependencies:
+      fixture-member-11:
+        specifier: workspace:*
+        version: link:../member-11
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-13:
+    dependencies:
+      fixture-member-12:
+        specifier: workspace:*
+        version: link:../member-12
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-14:
+    dependencies:
+      fixture-member-13:
+        specifier: workspace:*
+        version: link:../member-13
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-15:
+    dependencies:
+      fixture-member-14:
+        specifier: workspace:*
+        version: link:../member-14
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-16:
+    dependencies:
+      fixture-member-15:
+        specifier: workspace:*
+        version: link:../member-15
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-17:
+    dependencies:
+      fixture-member-16:
+        specifier: workspace:*
+        version: link:../member-16
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-18:
+    dependencies:
+      fixture-member-17:
+        specifier: workspace:*
+        version: link:../member-17
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-19:
+    dependencies:
+      fixture-member-18:
+        specifier: workspace:*
+        version: link:../member-18
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-2:
+    dependencies:
+      fixture-member-1:
+        specifier: workspace:*
+        version: link:../member-1
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-20:
+    dependencies:
+      fixture-member-19:
+        specifier: workspace:*
+        version: link:../member-19
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-21:
+    dependencies:
+      fixture-member-20:
+        specifier: workspace:*
+        version: link:../member-20
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-22:
+    dependencies:
+      fixture-member-21:
+        specifier: workspace:*
+        version: link:../member-21
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-23:
+    dependencies:
+      fixture-member-22:
+        specifier: workspace:*
+        version: link:../member-22
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-24:
+    dependencies:
+      fixture-member-23:
+        specifier: workspace:*
+        version: link:../member-23
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-25:
+    dependencies:
+      fixture-member-24:
+        specifier: workspace:*
+        version: link:../member-24
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-26:
+    dependencies:
+      fixture-member-25:
+        specifier: workspace:*
+        version: link:../member-25
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-27:
+    dependencies:
+      fixture-member-26:
+        specifier: workspace:*
+        version: link:../member-26
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-28:
+    dependencies:
+      fixture-member-27:
+        specifier: workspace:*
+        version: link:../member-27
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-29:
+    dependencies:
+      fixture-member-28:
+        specifier: workspace:*
+        version: link:../member-28
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-3:
+    dependencies:
+      fixture-member-2:
+        specifier: workspace:*
+        version: link:../member-2
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-30:
+    dependencies:
+      fixture-member-29:
+        specifier: workspace:*
+        version: link:../member-29
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-31:
+    dependencies:
+      fixture-member-30:
+        specifier: workspace:*
+        version: link:../member-30
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-32:
+    dependencies:
+      fixture-member-31:
+        specifier: workspace:*
+        version: link:../member-31
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-33:
+    dependencies:
+      fixture-member-32:
+        specifier: workspace:*
+        version: link:../member-32
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-34:
+    dependencies:
+      fixture-member-33:
+        specifier: workspace:*
+        version: link:../member-33
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-35:
+    dependencies:
+      fixture-member-34:
+        specifier: workspace:*
+        version: link:../member-34
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-36:
+    dependencies:
+      fixture-member-35:
+        specifier: workspace:*
+        version: link:../member-35
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-37:
+    dependencies:
+      fixture-member-36:
+        specifier: workspace:*
+        version: link:../member-36
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-38:
+    dependencies:
+      fixture-member-37:
+        specifier: workspace:*
+        version: link:../member-37
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-39:
+    dependencies:
+      fixture-member-38:
+        specifier: workspace:*
+        version: link:../member-38
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-4:
+    dependencies:
+      fixture-member-3:
+        specifier: workspace:*
+        version: link:../member-3
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-40:
+    dependencies:
+      fixture-member-39:
+        specifier: workspace:*
+        version: link:../member-39
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-41:
+    dependencies:
+      fixture-member-40:
+        specifier: workspace:*
+        version: link:../member-40
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-42:
+    dependencies:
+      fixture-member-41:
+        specifier: workspace:*
+        version: link:../member-41
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-43:
+    dependencies:
+      fixture-member-42:
+        specifier: workspace:*
+        version: link:../member-42
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-44:
+    dependencies:
+      fixture-member-43:
+        specifier: workspace:*
+        version: link:../member-43
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-45:
+    dependencies:
+      fixture-member-44:
+        specifier: workspace:*
+        version: link:../member-44
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-46:
+    dependencies:
+      fixture-member-45:
+        specifier: workspace:*
+        version: link:../member-45
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-47:
+    dependencies:
+      fixture-member-46:
+        specifier: workspace:*
+        version: link:../member-46
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-5:
+    dependencies:
+      fixture-member-4:
+        specifier: workspace:*
+        version: link:../member-4
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-6:
+    dependencies:
+      fixture-member-5:
+        specifier: workspace:*
+        version: link:../member-5
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-7:
+    dependencies:
+      fixture-member-6:
+        specifier: workspace:*
+        version: link:../member-6
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+  packages/member-8:
+    dependencies:
+      fixture-member-7:
+        specifier: workspace:*
+        version: link:../member-7
+      fixture-value:
+        specifier: 2.0.0
+        version: 2.0.0
+
+  packages/member-9:
+    dependencies:
+      fixture-member-8:
+        specifier: workspace:*
+        version: link:../member-8
+      fixture-value:
+        specifier: 1.0.0
+        version: 1.0.0
+
+packages:
+
+  fixture-value@1.0.0:
+    resolution: {integrity: sha512-CkYCCyrJBtCUhUdPc4dESE7qHGj4yZxjRp4wjXgJm/gE8BAu40lOcX3ViBqrkDPoea4O/pbodW144jDfCP9cGg==}
+
+  fixture-value@2.0.0:
+    resolution: {integrity: sha512-y93s1yZ0Ob/Wv570lkPLByGxtLqM9HzOPXAVSN1ZmaicRfnrzkCXDlUfZLAHDOlTKT8DMAc7JtOQvYbu750GGA==}
+
+snapshots:
+
+  fixture-value@1.0.0: {}
+
+  fixture-value@2.0.0: {}

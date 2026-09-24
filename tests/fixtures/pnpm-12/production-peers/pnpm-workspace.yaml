@@ -1,0 +1,4 @@
+packages:
+  - packages/*
+dedupePeerDependents: false
+autoInstallPeers: false

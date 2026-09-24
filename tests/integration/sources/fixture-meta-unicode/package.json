@@ -1,0 +1,6 @@
+{
+  "main": "index.cjs",
+  "name": "fixture-meta-unicode",
+  "version": "1.0.0",
+  "deprecated": "café 日本語 🚀"
+}

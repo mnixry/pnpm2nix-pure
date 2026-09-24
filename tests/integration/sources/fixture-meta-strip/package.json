@@ -1,0 +1,6 @@
+{
+  "main": "index.cjs",
+  "name": "fixture-meta-strip",
+  "version": "1.0.0",
+  "deprecated": "first line\nsecond line"
+}

@@ -1,0 +1,1 @@
+{"name":"fixture-peer","version":"1.0.0","main":"index.cjs","dependencies":{"fixture-value":"1.0.0"},"peerDependencies":{"fixture-dev":"*"},"peerDependenciesMeta":{"fixture-dev":{"optional":true}}}

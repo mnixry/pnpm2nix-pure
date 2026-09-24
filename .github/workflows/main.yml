@@ -1,0 +1,21 @@
+name: Main
+on:
+  push:
+    branches:
+      - main
+  pull_request: {}
+jobs:
+  checks:
+    strategy:
+      matrix:
+        runner:
+          - ubuntu-latest
+          - ubuntu-24.04-arm
+          - macos-latest
+      fail-fast: false
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - uses: actions/checkout@main
+      - uses: NixOS/nix-installer-action@main
+      - uses: Mic92/hestia@main
+      - run: nix flake check

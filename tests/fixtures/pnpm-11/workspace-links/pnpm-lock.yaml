@@ -1,0 +1,15 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      fixture-local:
+        specifier: workspace:*
+        version: link:packages/local
+
+  packages/local: {}

@@ -1,0 +1,6 @@
+{
+  "main": "index.cjs",
+  "name": "fixture-meta-escapes",
+  "version": "1.0.0",
+  "deprecated": "bell\u0007 tab\t escape\u001b next space  separator  paragraph  literal \\u0000 and \\0"
+}

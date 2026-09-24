@@ -1,0 +1,5 @@
+{
+  "main": "index.cjs",
+  "name": "@fixture/scoped",
+  "version": "1.0.0-rc.1"
+}

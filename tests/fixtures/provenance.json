@@ -1,0 +1,642 @@
+{
+  "writers": {
+    "10": "10.34.5",
+    "11": "11.27.0",
+    "12": "12.3.4"
+  },
+  "fixtures": {
+    "tests/fixtures/pnpm-10/basic": {
+      "pnpm": "10.34.5",
+      "inputs": {
+        "build.cjs": "efcc1525cd43c0f181a38d00dc44429c59678e4c2e2acef3fad25da0253d91fa",
+        "package.json": "a41e8dd18bdd6d00b32e0fb27f5612559060133bb0f2e4dd804c83336ac2030d"
+      },
+      "lockfileSha256": "d872f246913698019f5d3cb5a6ea549a35587053ad026a107a5ade6a4404469a"
+    },
+    "tests/fixtures/pnpm-10/dependency-graph": {
+      "pnpm": "10.34.5",
+      "inputs": {
+        "package.json": "7e6ddba3603e6e2ebea9214ab5c9fc9c44419cb3926ff3d8c727f2c317fdeeff"
+      },
+      "lockfileSha256": "869e4f1b8bab3f6270696896917c4c030fd4288f30afc9fe93090deeb1bd220c"
+    },
+    "tests/fixtures/pnpm-10/empty": {
+      "pnpm": "10.34.5",
+      "inputs": {
+        "build.cjs": "d74416fc6bbb4e0d7436c766806fc13847954285c3366b46a836f0bd15d3ea33",
+        "package.json": "4d4d043e967157fa8725acda0e1ca119f92b8dab26d4cf41fcfff86f257d8847"
+      },
+      "lockfileSha256": "17c814b167307942d3609c7b9d916ceddb85839573ab39baa114e30edb132a1a"
+    },
+    "tests/fixtures/pnpm-10/large-workspace": {
+      "pnpm": "10.34.5",
+      "inputs": {
+        "package.json": "877732dfec890afac2beea0d1e12fee0483af9a45506442032b935c43d7406d2",
+        "packages/member-0/package.json": "463844f26d21ed8ea3c2eb85a349517ce04556bc2b7c1c449e1027927001be92",
+        "packages/member-1/package.json": "0595c04b48af4305ed7a567076ad16a128f14cb055dc21c54d0cc665c727fb38",
+        "packages/member-10/package.json": "3da86a78590876ec4dc4bad118324698cddf6b079acdcfb92996b6ea9e8b1140",
+        "packages/member-11/package.json": "58de8caec2f92ee155c8accac872539131d1b8d0f2e93cad130bb47bcd20b933",
+        "packages/member-12/package.json": "8d5ff4e42bed4d273b084c7d4c1b690c28e0b90846f7889a5e5b56f51c88c53d",
+        "packages/member-13/package.json": "7e042913e44434fe99497ba7463dcb9202804399f6e98706468cd3e6a866e5e1",
+        "packages/member-14/package.json": "cc815bf49d5c9f487186b09ee533e8fab6fa044002abc05b752cc7fefbe5c08f",
+        "packages/member-15/package.json": "ce81cd870faa43f464d43a9be0c24b49ca910a070cec1c98baaf2c8db9af803b",
+        "packages/member-16/package.json": "1f6f116b399e920397d9ed5d2e507962952b5e91d43fcddc5f47e5c6940262ad",
+        "packages/member-17/package.json": "a2ab18844d7647485bd3b086587ba03366ae8a926a0f0a1cfcd7d6125d100077",
+        "packages/member-18/package.json": "8610c23b39ce46f228fbc349bd923bd6b50d74cfa16357db6add384b13bc45c1",
+        "packages/member-19/package.json": "b51661b6f901f4bd3f9df4beb767696fe06f6af55dca7cb812d33384b8bafc35",
+        "packages/member-2/package.json": "ccf6daf93ef43cd1d9fa96c0f0f43737c6a900dd1fd51c1e1740c0ed484c6663",
+        "packages/member-20/package.json": "094ffb2b921f2bc3adbe72813393ff3c1cfeb1d69eda3aeb77922bd1994be3b8",
+        "packages/member-21/package.json": "b3f82193f64bdf770cb482027898a76a597d3c2347c0935c01faf937a52b9fa3",
+        "packages/member-22/package.json": "377cad4f1fb4eccbd1efe964d033f2a07e025e9d4c1cc28780321371abff9575",
+        "packages/member-23/package.json": "f04db4a7c62bb39065e7e2a3bb235d0e02aab87b912be1647eb23a7e6369d234",
+        "packages/member-24/package.json": "9f7edc34c518a68e07d31d24b3ba48a71e0962961734555042f4b624c5a39ad0",
+        "packages/member-25/package.json": "cced409176df3dbce911e10e5ac91ed7b4fc8f8c35eda7b3490849aed3dfab98",
+        "packages/member-26/package.json": "1601dc64ce019b181a57c76c1a6e4deca1441c112905fd7e9d88e311775be7ce",
+        "packages/member-27/package.json": "8ea77646ec05d772553d8ca05b7836d3b93da3e7d13e59975dad6ec8398e9728",
+        "packages/member-28/package.json": "e49e2bbd4a8e6328eab96831073c60b4cedf7e7c1ebb98902e0d1d2ec0c315e5",
+        "packages/member-29/package.json": "7f769def5fcda4872727b060ef3bec8e7d2ba2ee8f152ad4051365e2b0ba4b00",
+        "packages/member-3/package.json": "af30f805d1fad8313a7629768fd4276b0d8a76eeb64b33ee1f2c402640bdbca0",
+        "packages/member-30/package.json": "942e6d5dc2fc654b932f27367130cd02c5a4647a815485000a975a60d401a0bf",
+        "packages/member-31/package.json": "b44c43483dbbe2a654d8b063b6848e9e6c53e117e85312ec0236c074ebb2bfe5",
+        "packages/member-32/package.json": "de37158516996e863378f84d7f970c5887346b37b7c5e6a2992b46bd2f13c0b7",
+        "packages/member-33/package.json": "14aa327ede39fb9639e3fba31739a406c433ad0d0798bbc11afdcf7005b17a1d",
+        "packages/member-34/package.json": "e99e5a017f1d4b170ff5a51a6bca43771effb8d710fb62b2cf0e5fa69abfe1c9",
+        "packages/member-35/package.json": "a9d8eb0b34a9cd06f3ba29545613c839f8442bc8a00d2553e08a9fcc13467411",
+        "packages/member-36/package.json": "e4bb1fd9bd2a3b85616437b437373093d9cc0cf55cebca0509ad20fba12c3ce9",
+        "packages/member-37/package.json": "848d4682e89a213da810bac9f0bd3f8b869456143cf07be4f1ad34b1a89565dc",
+        "packages/member-38/package.json": "89a064c4ca9850aa60611c9d9f405e1cae007db2e42772abc038d5906fbfed4b",
+        "packages/member-39/package.json": "db3b74f49fa9b799fb41d3c4482ed5d31754c261c1408b51ecd1a56b9d17cf2b",
+        "packages/member-4/package.json": "d596771f9d10fd06f67dbc53733a96c2c81fae6f0421dfa13eb0ec8b4741f67b",
+        "packages/member-40/package.json": "c7c3d9e716d3b7671cf6f5bf5fe6fad542419b705d693c0e24f62f9896b161a9",
+        "packages/member-41/package.json": "28d7cc4eaf0eac2e59fab1a91c8b3f4de01fd11d067cf0af616382f4d2bc9266",
+        "packages/member-42/package.json": "d2a8a1b83345e7f8a344bad8b0665c76cb2644d4ee8c219d8762bbc7ab85916b",
+        "packages/member-43/package.json": "0534560902c282f725debe722cb4977141d6d5218282ae87a2678c42fc95ffde",
+        "packages/member-44/package.json": "308eced5267ea244d4b82599d97bbe313448fd1eabd1ef116ea23ac666559935",
+        "packages/member-45/package.json": "edd2bcc9cd2824fec440e6e8f5a26bf482011dad911a34aa7abb82227ed57041",
+        "packages/member-46/package.json": "9bbfc890bab491a3a277acbddf33407f6915178b24b7d14cd5b68d7af8c639fc",
+        "packages/member-47/package.json": "2daae681d274a712544d650a889ccce009021cff32e653ddce1a2efa485bd8ca",
+        "packages/member-5/package.json": "87ee6aa46781241d5806b63b76ae908bfd96d953b4a92958f66a03b0c21b86e3",
+        "packages/member-6/package.json": "98a9fc18dda743f0f002e7b0a3ffe9a69ad8223586d92c254141e4c2fe301f5f",
+        "packages/member-7/package.json": "5aa4031ac1b076c862d77497b67ba71851b7085323d83a32282069c0880facf7",
+        "packages/member-8/package.json": "6d4cef70267dbf28b24e7b4dd5e41062256dcf1292d1490691cb5dcf523070b0",
+        "packages/member-9/package.json": "730bbfb44d6e346874e7aa03549a4cc405a1656111bfd77fd530af14a2ed29b8",
+        "pnpm-workspace.yaml": "d115dc6c83ba283a7d17146ad456056f3f70b003edb8c312a52880b48b034001"
+      },
+      "lockfileSha256": "1983229c124bc91c94fcb7b3de137bfe68a9a7a6ffdcfeff34f2c00ce6465711"
+    },
+    "tests/fixtures/pnpm-10/long-peer-key": {
+      "pnpm": "10.34.5",
+      "inputs": {
+        "package.json": "fd2c3b187b6f507ea763316aa37f8ed8686cbf6442a0314171c9598fa2dedd82",
+        "pnpm-workspace.yaml": "e0213c94c22f58f98cdaf0f8f29584868e844fc5044cd96635c324ab62fdd95f"
+      },
+      "lockfileSha256": "58623d72f93271b0161f4ad58df0bcecb26e9f4fab826d4ce8ae80194a97d3dc"
+    },
+    "tests/fixtures/pnpm-10/metadata": {
+      "pnpm": "10.34.5",
+      "inputs": {
+        "package.json": "6ebc773977088b284aba906cb9497725ff84825b08d35dbfc4636f9fb0c1e7f6"
+      },
+      "lockfileSha256": "9c3b3517a717e27c95416c26aace02f0c8973a95d7ec59114216ac1b665e4c4a"
+    },
+    "tests/fixtures/pnpm-10/native": {
+      "pnpm": "10.34.5",
+      "inputs": {
+        "build.cjs": "a1ad9482506515c17d544cd0106898d6538b8e101a27bd211a9b5c3ab8b4f37a",
+        "package.json": "6f85fdf911d87abcdfc8f05c9c540ffbd110209885d3b1cd1754d493efe7bb11",
+        "pnpm-workspace-deny.yaml": "f5a7731b98a4a721fe85c1eca766737f257935ad020ea60b5766250ef8f2e009",
+        "pnpm-workspace.yaml": "41357edb135c994cbec1f0f04103ed7fc0291f3aa7e35c4a0d4df187ec5b1baf"
+      },
+      "lockfileSha256": "377870d4986926c574c28f417dd529183228138227fa07a3a53b03afb3c49f3e"
+    },
+    "tests/fixtures/pnpm-10/patched": {
+      "pnpm": "10.34.5",
+      "inputs": {
+        "build.cjs": "a6e7823239ba4a93fb1b89bffc3df75db96a409cef549591635cac04171266bb",
+        "package.json": "9c87d64630591da3d8472dbb944c5532d6791444d9b0437e2dee2d2cdd089157",
+        "patches/fixture-value.patch": "4a4a62fea5ed5a0841245df8f6a840d68fbf42d9d15ea0b4265b26f86d29cc59",
+        "pnpm-workspace.yaml": "caf897ef1fabbf9bdf5ac852093bc97b1dc7a7b03a6a1302baa446035b6a3fbc"
+      },
+      "lockfileSha256": "776bed9756fdf3a52d5068ad670fd2bcaba9cce92b0d7060761b36e9f51b08b5"
+    },
+    "tests/fixtures/pnpm-10/production-peers": {
+      "pnpm": "10.34.5",
+      "inputs": {
+        "build.cjs": "abaff4d01d6094f6dbffa1d3008eacb6f0db93e39005ec2a1cc94356e1201174",
+        "package.json": "ebb2c11b92b90ccbced1e3b20ad700d3752513afd7e557be448b9f8519cd4bfa",
+        "packages/development/package.json": "bec1e6fe30cbc3425fe37978e0153e2c336b29ea4ac27a4c6ca8fdbb40de81dd",
+        "pnpm-workspace.yaml": "cbbfb72bd3a27822ae358042194f4d26ee5e313fa55343799d01ac533b5e796b"
+      },
+      "lockfileSha256": "8776785f251daf55ee3000978a8ea7577b13cef797e460a7651525e6d505b5d9"
+    },
+    "tests/fixtures/pnpm-10/tarball": {
+      "pnpm": "10.34.5",
+      "inputs": {
+        "build.cjs": "f0937ee1bf91234480d991d65bb78c7e6e07da177c777554f686ec38bbf33dfe",
+        "package.json": "12af10256c29ede16ef7739f47bf02300fce77d95448d27855ac52f7f4440dac"
+      },
+      "lockfileSha256": "545e514726657166b51f40d33b7dc2f4dad843135a447286e051e1324ca5c4e2"
+    },
+    "tests/fixtures/pnpm-10/workspace": {
+      "pnpm": "10.34.5",
+      "inputs": {
+        "build.cjs": "ac26e9403078ee39121d4ca9779479c5053caa1765657183ba5cd808f1c584c8",
+        "package.json": "a2a5b685e79cd3a2c40b96547a640d412cb3c689b1ae8623a4bf648eecd4c5c3",
+        "packages/helper/index.cjs": "8490398be5beae5f336fe8ce0533140e86214c712b581478aa75967108e05735",
+        "packages/helper/package.json": "9f3ba7d9257a1d0a3ae860fad52a4aba6f83328fa17237eb4de69747d01480b9",
+        "packages/library/index.cjs": "c176e7757d90ee6e1f43be10cc41c5f21bf234855d1fc1642d0c00e329213597",
+        "packages/library/package.json": "3861392ee3884269d4f480f094f0eb97b5230596f7206f466cfdc1a69a7013c4",
+        "pnpm-workspace.yaml": "d115dc6c83ba283a7d17146ad456056f3f70b003edb8c312a52880b48b034001"
+      },
+      "lockfileSha256": "df83d385335a5fa8d965768f502afe2639887e9c2dc51d46c4f24c86fb753f04"
+    },
+    "tests/fixtures/pnpm-10/workspace-links": {
+      "pnpm": "10.34.5",
+      "inputs": {
+        "package.json": "66604c2cdd96e3275f3f15fc86719e22d85021e0ce6b64e8bc1762f91258d674",
+        "packages/local/package.json": "7ed32fb8659822a95f7b5246a4302b030bde76d2328edbc42b8784a52767e9a3",
+        "pnpm-workspace.yaml": "d115dc6c83ba283a7d17146ad456056f3f70b003edb8c312a52880b48b034001"
+      },
+      "lockfileSha256": "f0e1e052a8ba04823428eb54f9fd0a21167a984a6920bbc6fc0680f1a56973e3"
+    },
+    "tests/fixtures/pnpm-11/basic": {
+      "pnpm": "11.27.0",
+      "inputs": {
+        "build.cjs": "efcc1525cd43c0f181a38d00dc44429c59678e4c2e2acef3fad25da0253d91fa",
+        "package.json": "a41e8dd18bdd6d00b32e0fb27f5612559060133bb0f2e4dd804c83336ac2030d"
+      },
+      "lockfileSha256": "d872f246913698019f5d3cb5a6ea549a35587053ad026a107a5ade6a4404469a"
+    },
+    "tests/fixtures/pnpm-11/dependency-graph": {
+      "pnpm": "11.27.0",
+      "inputs": {
+        "package.json": "7e6ddba3603e6e2ebea9214ab5c9fc9c44419cb3926ff3d8c727f2c317fdeeff"
+      },
+      "lockfileSha256": "869e4f1b8bab3f6270696896917c4c030fd4288f30afc9fe93090deeb1bd220c"
+    },
+    "tests/fixtures/pnpm-11/empty": {
+      "pnpm": "11.27.0",
+      "inputs": {
+        "build.cjs": "d74416fc6bbb4e0d7436c766806fc13847954285c3366b46a836f0bd15d3ea33",
+        "package.json": "4d4d043e967157fa8725acda0e1ca119f92b8dab26d4cf41fcfff86f257d8847"
+      },
+      "lockfileSha256": "17c814b167307942d3609c7b9d916ceddb85839573ab39baa114e30edb132a1a"
+    },
+    "tests/fixtures/pnpm-11/large-workspace": {
+      "pnpm": "11.27.0",
+      "inputs": {
+        "package.json": "877732dfec890afac2beea0d1e12fee0483af9a45506442032b935c43d7406d2",
+        "packages/member-0/package.json": "463844f26d21ed8ea3c2eb85a349517ce04556bc2b7c1c449e1027927001be92",
+        "packages/member-1/package.json": "0595c04b48af4305ed7a567076ad16a128f14cb055dc21c54d0cc665c727fb38",
+        "packages/member-10/package.json": "3da86a78590876ec4dc4bad118324698cddf6b079acdcfb92996b6ea9e8b1140",
+        "packages/member-11/package.json": "58de8caec2f92ee155c8accac872539131d1b8d0f2e93cad130bb47bcd20b933",
+        "packages/member-12/package.json": "8d5ff4e42bed4d273b084c7d4c1b690c28e0b90846f7889a5e5b56f51c88c53d",
+        "packages/member-13/package.json": "7e042913e44434fe99497ba7463dcb9202804399f6e98706468cd3e6a866e5e1",
+        "packages/member-14/package.json": "cc815bf49d5c9f487186b09ee533e8fab6fa044002abc05b752cc7fefbe5c08f",
+        "packages/member-15/package.json": "ce81cd870faa43f464d43a9be0c24b49ca910a070cec1c98baaf2c8db9af803b",
+        "packages/member-16/package.json": "1f6f116b399e920397d9ed5d2e507962952b5e91d43fcddc5f47e5c6940262ad",
+        "packages/member-17/package.json": "a2ab18844d7647485bd3b086587ba03366ae8a926a0f0a1cfcd7d6125d100077",
+        "packages/member-18/package.json": "8610c23b39ce46f228fbc349bd923bd6b50d74cfa16357db6add384b13bc45c1",
+        "packages/member-19/package.json": "b51661b6f901f4bd3f9df4beb767696fe06f6af55dca7cb812d33384b8bafc35",
+        "packages/member-2/package.json": "ccf6daf93ef43cd1d9fa96c0f0f43737c6a900dd1fd51c1e1740c0ed484c6663",
+        "packages/member-20/package.json": "094ffb2b921f2bc3adbe72813393ff3c1cfeb1d69eda3aeb77922bd1994be3b8",
+        "packages/member-21/package.json": "b3f82193f64bdf770cb482027898a76a597d3c2347c0935c01faf937a52b9fa3",
+        "packages/member-22/package.json": "377cad4f1fb4eccbd1efe964d033f2a07e025e9d4c1cc28780321371abff9575",
+        "packages/member-23/package.json": "f04db4a7c62bb39065e7e2a3bb235d0e02aab87b912be1647eb23a7e6369d234",
+        "packages/member-24/package.json": "9f7edc34c518a68e07d31d24b3ba48a71e0962961734555042f4b624c5a39ad0",
+        "packages/member-25/package.json": "cced409176df3dbce911e10e5ac91ed7b4fc8f8c35eda7b3490849aed3dfab98",
+        "packages/member-26/package.json": "1601dc64ce019b181a57c76c1a6e4deca1441c112905fd7e9d88e311775be7ce",
+        "packages/member-27/package.json": "8ea77646ec05d772553d8ca05b7836d3b93da3e7d13e59975dad6ec8398e9728",
+        "packages/member-28/package.json": "e49e2bbd4a8e6328eab96831073c60b4cedf7e7c1ebb98902e0d1d2ec0c315e5",
+        "packages/member-29/package.json": "7f769def5fcda4872727b060ef3bec8e7d2ba2ee8f152ad4051365e2b0ba4b00",
+        "packages/member-3/package.json": "af30f805d1fad8313a7629768fd4276b0d8a76eeb64b33ee1f2c402640bdbca0",
+        "packages/member-30/package.json": "942e6d5dc2fc654b932f27367130cd02c5a4647a815485000a975a60d401a0bf",
+        "packages/member-31/package.json": "b44c43483dbbe2a654d8b063b6848e9e6c53e117e85312ec0236c074ebb2bfe5",
+        "packages/member-32/package.json": "de37158516996e863378f84d7f970c5887346b37b7c5e6a2992b46bd2f13c0b7",
+        "packages/member-33/package.json": "14aa327ede39fb9639e3fba31739a406c433ad0d0798bbc11afdcf7005b17a1d",
+        "packages/member-34/package.json": "e99e5a017f1d4b170ff5a51a6bca43771effb8d710fb62b2cf0e5fa69abfe1c9",
+        "packages/member-35/package.json": "a9d8eb0b34a9cd06f3ba29545613c839f8442bc8a00d2553e08a9fcc13467411",
+        "packages/member-36/package.json": "e4bb1fd9bd2a3b85616437b437373093d9cc0cf55cebca0509ad20fba12c3ce9",
+        "packages/member-37/package.json": "848d4682e89a213da810bac9f0bd3f8b869456143cf07be4f1ad34b1a89565dc",
+        "packages/member-38/package.json": "89a064c4ca9850aa60611c9d9f405e1cae007db2e42772abc038d5906fbfed4b",
+        "packages/member-39/package.json": "db3b74f49fa9b799fb41d3c4482ed5d31754c261c1408b51ecd1a56b9d17cf2b",
+        "packages/member-4/package.json": "d596771f9d10fd06f67dbc53733a96c2c81fae6f0421dfa13eb0ec8b4741f67b",
+        "packages/member-40/package.json": "c7c3d9e716d3b7671cf6f5bf5fe6fad542419b705d693c0e24f62f9896b161a9",
+        "packages/member-41/package.json": "28d7cc4eaf0eac2e59fab1a91c8b3f4de01fd11d067cf0af616382f4d2bc9266",
+        "packages/member-42/package.json": "d2a8a1b83345e7f8a344bad8b0665c76cb2644d4ee8c219d8762bbc7ab85916b",
+        "packages/member-43/package.json": "0534560902c282f725debe722cb4977141d6d5218282ae87a2678c42fc95ffde",
+        "packages/member-44/package.json": "308eced5267ea244d4b82599d97bbe313448fd1eabd1ef116ea23ac666559935",
+        "packages/member-45/package.json": "edd2bcc9cd2824fec440e6e8f5a26bf482011dad911a34aa7abb82227ed57041",
+        "packages/member-46/package.json": "9bbfc890bab491a3a277acbddf33407f6915178b24b7d14cd5b68d7af8c639fc",
+        "packages/member-47/package.json": "2daae681d274a712544d650a889ccce009021cff32e653ddce1a2efa485bd8ca",
+        "packages/member-5/package.json": "87ee6aa46781241d5806b63b76ae908bfd96d953b4a92958f66a03b0c21b86e3",
+        "packages/member-6/package.json": "98a9fc18dda743f0f002e7b0a3ffe9a69ad8223586d92c254141e4c2fe301f5f",
+        "packages/member-7/package.json": "5aa4031ac1b076c862d77497b67ba71851b7085323d83a32282069c0880facf7",
+        "packages/member-8/package.json": "6d4cef70267dbf28b24e7b4dd5e41062256dcf1292d1490691cb5dcf523070b0",
+        "packages/member-9/package.json": "730bbfb44d6e346874e7aa03549a4cc405a1656111bfd77fd530af14a2ed29b8",
+        "pnpm-workspace.yaml": "d115dc6c83ba283a7d17146ad456056f3f70b003edb8c312a52880b48b034001"
+      },
+      "lockfileSha256": "1983229c124bc91c94fcb7b3de137bfe68a9a7a6ffdcfeff34f2c00ce6465711"
+    },
+    "tests/fixtures/pnpm-11/long-peer-key": {
+      "pnpm": "11.27.0",
+      "inputs": {
+        "package.json": "fd2c3b187b6f507ea763316aa37f8ed8686cbf6442a0314171c9598fa2dedd82",
+        "pnpm-workspace.yaml": "e0213c94c22f58f98cdaf0f8f29584868e844fc5044cd96635c324ab62fdd95f"
+      },
+      "lockfileSha256": "58623d72f93271b0161f4ad58df0bcecb26e9f4fab826d4ce8ae80194a97d3dc"
+    },
+    "tests/fixtures/pnpm-11/metadata": {
+      "pnpm": "11.27.0",
+      "inputs": {
+        "package.json": "6ebc773977088b284aba906cb9497725ff84825b08d35dbfc4636f9fb0c1e7f6"
+      },
+      "lockfileSha256": "9c3b3517a717e27c95416c26aace02f0c8973a95d7ec59114216ac1b665e4c4a"
+    },
+    "tests/fixtures/pnpm-11/native": {
+      "pnpm": "11.27.0",
+      "inputs": {
+        "build.cjs": "a1ad9482506515c17d544cd0106898d6538b8e101a27bd211a9b5c3ab8b4f37a",
+        "package.json": "6f85fdf911d87abcdfc8f05c9c540ffbd110209885d3b1cd1754d493efe7bb11",
+        "pnpm-workspace-deny.yaml": "f5a7731b98a4a721fe85c1eca766737f257935ad020ea60b5766250ef8f2e009",
+        "pnpm-workspace.yaml": "41357edb135c994cbec1f0f04103ed7fc0291f3aa7e35c4a0d4df187ec5b1baf"
+      },
+      "lockfileSha256": "377870d4986926c574c28f417dd529183228138227fa07a3a53b03afb3c49f3e"
+    },
+    "tests/fixtures/pnpm-11/patched": {
+      "pnpm": "11.27.0",
+      "inputs": {
+        "build.cjs": "a6e7823239ba4a93fb1b89bffc3df75db96a409cef549591635cac04171266bb",
+        "package.json": "9c87d64630591da3d8472dbb944c5532d6791444d9b0437e2dee2d2cdd089157",
+        "patches/fixture-value.patch": "4a4a62fea5ed5a0841245df8f6a840d68fbf42d9d15ea0b4265b26f86d29cc59",
+        "pnpm-workspace.yaml": "caf897ef1fabbf9bdf5ac852093bc97b1dc7a7b03a6a1302baa446035b6a3fbc"
+      },
+      "lockfileSha256": "737b928879a3c931064a33d3fdd0ae61f9cf43c31812d8255abab0d4e3b4b557"
+    },
+    "tests/fixtures/pnpm-11/production-peers": {
+      "pnpm": "11.27.0",
+      "inputs": {
+        "build.cjs": "abaff4d01d6094f6dbffa1d3008eacb6f0db93e39005ec2a1cc94356e1201174",
+        "package.json": "ebb2c11b92b90ccbced1e3b20ad700d3752513afd7e557be448b9f8519cd4bfa",
+        "packages/development/package.json": "bec1e6fe30cbc3425fe37978e0153e2c336b29ea4ac27a4c6ca8fdbb40de81dd",
+        "pnpm-workspace.yaml": "cbbfb72bd3a27822ae358042194f4d26ee5e313fa55343799d01ac533b5e796b"
+      },
+      "lockfileSha256": "8776785f251daf55ee3000978a8ea7577b13cef797e460a7651525e6d505b5d9"
+    },
+    "tests/fixtures/pnpm-11/tarball": {
+      "pnpm": "11.27.0",
+      "inputs": {
+        "build.cjs": "f0937ee1bf91234480d991d65bb78c7e6e07da177c777554f686ec38bbf33dfe",
+        "package.json": "12af10256c29ede16ef7739f47bf02300fce77d95448d27855ac52f7f4440dac"
+      },
+      "lockfileSha256": "545e514726657166b51f40d33b7dc2f4dad843135a447286e051e1324ca5c4e2"
+    },
+    "tests/fixtures/pnpm-11/workspace": {
+      "pnpm": "11.27.0",
+      "inputs": {
+        "build.cjs": "ac26e9403078ee39121d4ca9779479c5053caa1765657183ba5cd808f1c584c8",
+        "package.json": "a2a5b685e79cd3a2c40b96547a640d412cb3c689b1ae8623a4bf648eecd4c5c3",
+        "packages/helper/index.cjs": "8490398be5beae5f336fe8ce0533140e86214c712b581478aa75967108e05735",
+        "packages/helper/package.json": "9f3ba7d9257a1d0a3ae860fad52a4aba6f83328fa17237eb4de69747d01480b9",
+        "packages/library/index.cjs": "c176e7757d90ee6e1f43be10cc41c5f21bf234855d1fc1642d0c00e329213597",
+        "packages/library/package.json": "3861392ee3884269d4f480f094f0eb97b5230596f7206f466cfdc1a69a7013c4",
+        "pnpm-workspace.yaml": "d115dc6c83ba283a7d17146ad456056f3f70b003edb8c312a52880b48b034001"
+      },
+      "lockfileSha256": "df83d385335a5fa8d965768f502afe2639887e9c2dc51d46c4f24c86fb753f04"
+    },
+    "tests/fixtures/pnpm-11/workspace-links": {
+      "pnpm": "11.27.0",
+      "inputs": {
+        "package.json": "66604c2cdd96e3275f3f15fc86719e22d85021e0ce6b64e8bc1762f91258d674",
+        "packages/local/package.json": "7ed32fb8659822a95f7b5246a4302b030bde76d2328edbc42b8784a52767e9a3",
+        "pnpm-workspace.yaml": "d115dc6c83ba283a7d17146ad456056f3f70b003edb8c312a52880b48b034001"
+      },
+      "lockfileSha256": "f0e1e052a8ba04823428eb54f9fd0a21167a984a6920bbc6fc0680f1a56973e3"
+    },
+    "tests/fixtures/pnpm-12/basic": {
+      "pnpm": "12.3.4",
+      "inputs": {
+        "build.cjs": "efcc1525cd43c0f181a38d00dc44429c59678e4c2e2acef3fad25da0253d91fa",
+        "package.json": "a41e8dd18bdd6d00b32e0fb27f5612559060133bb0f2e4dd804c83336ac2030d"
+      },
+      "lockfileSha256": "d872f246913698019f5d3cb5a6ea549a35587053ad026a107a5ade6a4404469a"
+    },
+    "tests/fixtures/pnpm-12/dependency-graph": {
+      "pnpm": "12.3.4",
+      "inputs": {
+        "package.json": "7e6ddba3603e6e2ebea9214ab5c9fc9c44419cb3926ff3d8c727f2c317fdeeff"
+      },
+      "lockfileSha256": "869e4f1b8bab3f6270696896917c4c030fd4288f30afc9fe93090deeb1bd220c"
+    },
+    "tests/fixtures/pnpm-12/empty": {
+      "pnpm": "12.3.4",
+      "inputs": {
+        "build.cjs": "d74416fc6bbb4e0d7436c766806fc13847954285c3366b46a836f0bd15d3ea33",
+        "package.json": "4d4d043e967157fa8725acda0e1ca119f92b8dab26d4cf41fcfff86f257d8847"
+      },
+      "lockfileSha256": "17c814b167307942d3609c7b9d916ceddb85839573ab39baa114e30edb132a1a"
+    },
+    "tests/fixtures/pnpm-12/large-workspace": {
+      "pnpm": "12.3.4",
+      "inputs": {
+        "package.json": "877732dfec890afac2beea0d1e12fee0483af9a45506442032b935c43d7406d2",
+        "packages/member-0/package.json": "463844f26d21ed8ea3c2eb85a349517ce04556bc2b7c1c449e1027927001be92",
+        "packages/member-1/package.json": "0595c04b48af4305ed7a567076ad16a128f14cb055dc21c54d0cc665c727fb38",
+        "packages/member-10/package.json": "3da86a78590876ec4dc4bad118324698cddf6b079acdcfb92996b6ea9e8b1140",
+        "packages/member-11/package.json": "58de8caec2f92ee155c8accac872539131d1b8d0f2e93cad130bb47bcd20b933",
+        "packages/member-12/package.json": "8d5ff4e42bed4d273b084c7d4c1b690c28e0b90846f7889a5e5b56f51c88c53d",
+        "packages/member-13/package.json": "7e042913e44434fe99497ba7463dcb9202804399f6e98706468cd3e6a866e5e1",
+        "packages/member-14/package.json": "cc815bf49d5c9f487186b09ee533e8fab6fa044002abc05b752cc7fefbe5c08f",
+        "packages/member-15/package.json": "ce81cd870faa43f464d43a9be0c24b49ca910a070cec1c98baaf2c8db9af803b",
+        "packages/member-16/package.json": "1f6f116b399e920397d9ed5d2e507962952b5e91d43fcddc5f47e5c6940262ad",
+        "packages/member-17/package.json": "a2ab18844d7647485bd3b086587ba03366ae8a926a0f0a1cfcd7d6125d100077",
+        "packages/member-18/package.json": "8610c23b39ce46f228fbc349bd923bd6b50d74cfa16357db6add384b13bc45c1",
+        "packages/member-19/package.json": "b51661b6f901f4bd3f9df4beb767696fe06f6af55dca7cb812d33384b8bafc35",
+        "packages/member-2/package.json": "ccf6daf93ef43cd1d9fa96c0f0f43737c6a900dd1fd51c1e1740c0ed484c6663",
+        "packages/member-20/package.json": "094ffb2b921f2bc3adbe72813393ff3c1cfeb1d69eda3aeb77922bd1994be3b8",
+        "packages/member-21/package.json": "b3f82193f64bdf770cb482027898a76a597d3c2347c0935c01faf937a52b9fa3",
+        "packages/member-22/package.json": "377cad4f1fb4eccbd1efe964d033f2a07e025e9d4c1cc28780321371abff9575",
+        "packages/member-23/package.json": "f04db4a7c62bb39065e7e2a3bb235d0e02aab87b912be1647eb23a7e6369d234",
+        "packages/member-24/package.json": "9f7edc34c518a68e07d31d24b3ba48a71e0962961734555042f4b624c5a39ad0",
+        "packages/member-25/package.json": "cced409176df3dbce911e10e5ac91ed7b4fc8f8c35eda7b3490849aed3dfab98",
+        "packages/member-26/package.json": "1601dc64ce019b181a57c76c1a6e4deca1441c112905fd7e9d88e311775be7ce",
+        "packages/member-27/package.json": "8ea77646ec05d772553d8ca05b7836d3b93da3e7d13e59975dad6ec8398e9728",
+        "packages/member-28/package.json": "e49e2bbd4a8e6328eab96831073c60b4cedf7e7c1ebb98902e0d1d2ec0c315e5",
+        "packages/member-29/package.json": "7f769def5fcda4872727b060ef3bec8e7d2ba2ee8f152ad4051365e2b0ba4b00",
+        "packages/member-3/package.json": "af30f805d1fad8313a7629768fd4276b0d8a76eeb64b33ee1f2c402640bdbca0",
+        "packages/member-30/package.json": "942e6d5dc2fc654b932f27367130cd02c5a4647a815485000a975a60d401a0bf",
+        "packages/member-31/package.json": "b44c43483dbbe2a654d8b063b6848e9e6c53e117e85312ec0236c074ebb2bfe5",
+        "packages/member-32/package.json": "de37158516996e863378f84d7f970c5887346b37b7c5e6a2992b46bd2f13c0b7",
+        "packages/member-33/package.json": "14aa327ede39fb9639e3fba31739a406c433ad0d0798bbc11afdcf7005b17a1d",
+        "packages/member-34/package.json": "e99e5a017f1d4b170ff5a51a6bca43771effb8d710fb62b2cf0e5fa69abfe1c9",
+        "packages/member-35/package.json": "a9d8eb0b34a9cd06f3ba29545613c839f8442bc8a00d2553e08a9fcc13467411",
+        "packages/member-36/package.json": "e4bb1fd9bd2a3b85616437b437373093d9cc0cf55cebca0509ad20fba12c3ce9",
+        "packages/member-37/package.json": "848d4682e89a213da810bac9f0bd3f8b869456143cf07be4f1ad34b1a89565dc",
+        "packages/member-38/package.json": "89a064c4ca9850aa60611c9d9f405e1cae007db2e42772abc038d5906fbfed4b",
+        "packages/member-39/package.json": "db3b74f49fa9b799fb41d3c4482ed5d31754c261c1408b51ecd1a56b9d17cf2b",
+        "packages/member-4/package.json": "d596771f9d10fd06f67dbc53733a96c2c81fae6f0421dfa13eb0ec8b4741f67b",
+        "packages/member-40/package.json": "c7c3d9e716d3b7671cf6f5bf5fe6fad542419b705d693c0e24f62f9896b161a9",
+        "packages/member-41/package.json": "28d7cc4eaf0eac2e59fab1a91c8b3f4de01fd11d067cf0af616382f4d2bc9266",
+        "packages/member-42/package.json": "d2a8a1b83345e7f8a344bad8b0665c76cb2644d4ee8c219d8762bbc7ab85916b",
+        "packages/member-43/package.json": "0534560902c282f725debe722cb4977141d6d5218282ae87a2678c42fc95ffde",
+        "packages/member-44/package.json": "308eced5267ea244d4b82599d97bbe313448fd1eabd1ef116ea23ac666559935",
+        "packages/member-45/package.json": "edd2bcc9cd2824fec440e6e8f5a26bf482011dad911a34aa7abb82227ed57041",
+        "packages/member-46/package.json": "9bbfc890bab491a3a277acbddf33407f6915178b24b7d14cd5b68d7af8c639fc",
+        "packages/member-47/package.json": "2daae681d274a712544d650a889ccce009021cff32e653ddce1a2efa485bd8ca",
+        "packages/member-5/package.json": "87ee6aa46781241d5806b63b76ae908bfd96d953b4a92958f66a03b0c21b86e3",
+        "packages/member-6/package.json": "98a9fc18dda743f0f002e7b0a3ffe9a69ad8223586d92c254141e4c2fe301f5f",
+        "packages/member-7/package.json": "5aa4031ac1b076c862d77497b67ba71851b7085323d83a32282069c0880facf7",
+        "packages/member-8/package.json": "6d4cef70267dbf28b24e7b4dd5e41062256dcf1292d1490691cb5dcf523070b0",
+        "packages/member-9/package.json": "730bbfb44d6e346874e7aa03549a4cc405a1656111bfd77fd530af14a2ed29b8",
+        "pnpm-workspace.yaml": "d115dc6c83ba283a7d17146ad456056f3f70b003edb8c312a52880b48b034001"
+      },
+      "lockfileSha256": "1983229c124bc91c94fcb7b3de137bfe68a9a7a6ffdcfeff34f2c00ce6465711"
+    },
+    "tests/fixtures/pnpm-12/long-peer-key": {
+      "pnpm": "12.3.4",
+      "inputs": {
+        "package.json": "fd2c3b187b6f507ea763316aa37f8ed8686cbf6442a0314171c9598fa2dedd82",
+        "pnpm-workspace.yaml": "e0213c94c22f58f98cdaf0f8f29584868e844fc5044cd96635c324ab62fdd95f"
+      },
+      "lockfileSha256": "58623d72f93271b0161f4ad58df0bcecb26e9f4fab826d4ce8ae80194a97d3dc"
+    },
+    "tests/fixtures/pnpm-12/metadata": {
+      "pnpm": "12.3.4",
+      "inputs": {
+        "package.json": "6ebc773977088b284aba906cb9497725ff84825b08d35dbfc4636f9fb0c1e7f6"
+      },
+      "lockfileSha256": "9c3b3517a717e27c95416c26aace02f0c8973a95d7ec59114216ac1b665e4c4a"
+    },
+    "tests/fixtures/pnpm-12/native": {
+      "pnpm": "12.3.4",
+      "inputs": {
+        "build.cjs": "a1ad9482506515c17d544cd0106898d6538b8e101a27bd211a9b5c3ab8b4f37a",
+        "package.json": "6f85fdf911d87abcdfc8f05c9c540ffbd110209885d3b1cd1754d493efe7bb11",
+        "pnpm-workspace-deny.yaml": "f5a7731b98a4a721fe85c1eca766737f257935ad020ea60b5766250ef8f2e009",
+        "pnpm-workspace.yaml": "41357edb135c994cbec1f0f04103ed7fc0291f3aa7e35c4a0d4df187ec5b1baf"
+      },
+      "lockfileSha256": "377870d4986926c574c28f417dd529183228138227fa07a3a53b03afb3c49f3e"
+    },
+    "tests/fixtures/pnpm-12/patched": {
+      "pnpm": "12.3.4",
+      "inputs": {
+        "build.cjs": "a6e7823239ba4a93fb1b89bffc3df75db96a409cef549591635cac04171266bb",
+        "package.json": "9c87d64630591da3d8472dbb944c5532d6791444d9b0437e2dee2d2cdd089157",
+        "patches/fixture-value.patch": "4a4a62fea5ed5a0841245df8f6a840d68fbf42d9d15ea0b4265b26f86d29cc59",
+        "pnpm-workspace.yaml": "caf897ef1fabbf9bdf5ac852093bc97b1dc7a7b03a6a1302baa446035b6a3fbc"
+      },
+      "lockfileSha256": "737b928879a3c931064a33d3fdd0ae61f9cf43c31812d8255abab0d4e3b4b557"
+    },
+    "tests/fixtures/pnpm-12/production-peers": {
+      "pnpm": "12.3.4",
+      "inputs": {
+        "build.cjs": "abaff4d01d6094f6dbffa1d3008eacb6f0db93e39005ec2a1cc94356e1201174",
+        "package.json": "ebb2c11b92b90ccbced1e3b20ad700d3752513afd7e557be448b9f8519cd4bfa",
+        "packages/development/package.json": "bec1e6fe30cbc3425fe37978e0153e2c336b29ea4ac27a4c6ca8fdbb40de81dd",
+        "pnpm-workspace.yaml": "cbbfb72bd3a27822ae358042194f4d26ee5e313fa55343799d01ac533b5e796b"
+      },
+      "lockfileSha256": "8776785f251daf55ee3000978a8ea7577b13cef797e460a7651525e6d505b5d9"
+    },
+    "tests/fixtures/pnpm-12/tarball": {
+      "pnpm": "12.3.4",
+      "inputs": {
+        "build.cjs": "f0937ee1bf91234480d991d65bb78c7e6e07da177c777554f686ec38bbf33dfe",
+        "package.json": "12af10256c29ede16ef7739f47bf02300fce77d95448d27855ac52f7f4440dac"
+      },
+      "lockfileSha256": "545e514726657166b51f40d33b7dc2f4dad843135a447286e051e1324ca5c4e2"
+    },
+    "tests/fixtures/pnpm-12/workspace": {
+      "pnpm": "12.3.4",
+      "inputs": {
+        "build.cjs": "ac26e9403078ee39121d4ca9779479c5053caa1765657183ba5cd808f1c584c8",
+        "package.json": "a2a5b685e79cd3a2c40b96547a640d412cb3c689b1ae8623a4bf648eecd4c5c3",
+        "packages/helper/index.cjs": "8490398be5beae5f336fe8ce0533140e86214c712b581478aa75967108e05735",
+        "packages/helper/package.json": "9f3ba7d9257a1d0a3ae860fad52a4aba6f83328fa17237eb4de69747d01480b9",
+        "packages/library/index.cjs": "c176e7757d90ee6e1f43be10cc41c5f21bf234855d1fc1642d0c00e329213597",
+        "packages/library/package.json": "3861392ee3884269d4f480f094f0eb97b5230596f7206f466cfdc1a69a7013c4",
+        "pnpm-workspace.yaml": "d115dc6c83ba283a7d17146ad456056f3f70b003edb8c312a52880b48b034001"
+      },
+      "lockfileSha256": "df83d385335a5fa8d965768f502afe2639887e9c2dc51d46c4f24c86fb753f04"
+    },
+    "tests/fixtures/pnpm-12/workspace-links": {
+      "pnpm": "12.3.4",
+      "inputs": {
+        "package.json": "66604c2cdd96e3275f3f15fc86719e22d85021e0ce6b64e8bc1762f91258d674",
+        "packages/local/package.json": "7ed32fb8659822a95f7b5246a4302b030bde76d2328edbc42b8784a52767e9a3",
+        "pnpm-workspace.yaml": "d115dc6c83ba283a7d17146ad456056f3f70b003edb8c312a52880b48b034001"
+      },
+      "lockfileSha256": "f0e1e052a8ba04823428eb54f9fd0a21167a984a6920bbc6fc0680f1a56973e3"
+    },
+    "tests/fixtures/pnpm-12/config-plugin": {
+      "pnpm": "12.3.4",
+      "inputs": {
+        "build.cjs": "4e0822f1ab0bb71fb251fca90d85308695b76a094f2397a016b80b640a064941",
+        "package.json": "ad7186ae1f8af1251c85497fa30bef4229be746c62deea02eb1585e64bcb4641",
+        "pnpm-workspace.yaml": "1f88d8807ab4ed1b2cb5073f4819227dd3b2083c36928318038ac87fcd79d739"
+      },
+      "lockfileSha256": "b6abe38da75837de36e96c10bfa2bf246d8135c2ef308a75046642e53b1fd14d"
+    },
+    "tests/fixtures/pnpm-10/git": {
+      "pnpm": "10.34.5",
+      "inputs": {
+        "build.cjs": "f0937ee1bf91234480d991d65bb78c7e6e07da177c777554f686ec38bbf33dfe",
+        "package.json": "ea5b042dac842541884aff2434e308123758b48ec9dc035e3233980488dee6e1"
+      },
+      "lockfileSha256": "b8a2302607dafbee68dfbff463b5fd5f2f2d2342d9a297b832e0c2be5e4a9e89"
+    },
+    "tests/fixtures/pnpm-11/git": {
+      "pnpm": "11.27.0",
+      "inputs": {
+        "build.cjs": "f0937ee1bf91234480d991d65bb78c7e6e07da177c777554f686ec38bbf33dfe",
+        "package.json": "ea5b042dac842541884aff2434e308123758b48ec9dc035e3233980488dee6e1"
+      },
+      "lockfileSha256": "b8a2302607dafbee68dfbff463b5fd5f2f2d2342d9a297b832e0c2be5e4a9e89"
+    },
+    "tests/fixtures/pnpm-12/git": {
+      "pnpm": "12.3.4",
+      "inputs": {
+        "build.cjs": "f0937ee1bf91234480d991d65bb78c7e6e07da177c777554f686ec38bbf33dfe",
+        "package.json": "ea5b042dac842541884aff2434e308123758b48ec9dc035e3233980488dee6e1"
+      },
+      "lockfileSha256": "b8a2302607dafbee68dfbff463b5fd5f2f2d2342d9a297b832e0c2be5e4a9e89"
+    },
+    "tests/fixtures/pnpm-10/binary": {
+      "pnpm": "10.34.5",
+      "inputs": {
+        "app.ts": "d4282244ceaa7262d4fb8a88bbf6dcaf4c135f494e520d1ef458f7eb50b68bc6",
+        "package.json": "33d1bf7cba4b8dbb0dae8cf5a3781966114fdec0503cd956def4f2dee3714d2e",
+        "pnpm-workspace.yaml": "ac02d96368617c760f093cfe61fdec64b6244007ab3553e0d6621f706f54a353"
+      },
+      "lockfileSha256": "9370579db57968195bd67d49960ae2c8e2c27b743e4f45b24a5e565859b07ced"
+    },
+    "tests/fixtures/pnpm-11/binary": {
+      "pnpm": "11.27.0",
+      "inputs": {
+        "app.ts": "d4282244ceaa7262d4fb8a88bbf6dcaf4c135f494e520d1ef458f7eb50b68bc6",
+        "package.json": "33d1bf7cba4b8dbb0dae8cf5a3781966114fdec0503cd956def4f2dee3714d2e",
+        "pnpm-workspace.yaml": "ac02d96368617c760f093cfe61fdec64b6244007ab3553e0d6621f706f54a353"
+      },
+      "lockfileSha256": "9370579db57968195bd67d49960ae2c8e2c27b743e4f45b24a5e565859b07ced"
+    },
+    "tests/fixtures/pnpm-12/binary": {
+      "pnpm": "12.3.4",
+      "inputs": {
+        "app.ts": "d4282244ceaa7262d4fb8a88bbf6dcaf4c135f494e520d1ef458f7eb50b68bc6",
+        "package.json": "33d1bf7cba4b8dbb0dae8cf5a3781966114fdec0503cd956def4f2dee3714d2e",
+        "pnpm-workspace.yaml": "ac02d96368617c760f093cfe61fdec64b6244007ab3553e0d6621f706f54a353"
+      },
+      "lockfileSha256": "9370579db57968195bd67d49960ae2c8e2c27b743e4f45b24a5e565859b07ced"
+    }
+  },
+  "sources": {
+    "tests/integration/sources/fixture-cycle-a/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-cycle-a/package.json": "bf6f3885b1e0a7b3f9499dbce7cb3d1e55bb35a0fd86936eb32fc289123033c6",
+    "tests/integration/sources/fixture-cycle-b/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-cycle-b/package.json": "57ab2249447670737fffed534fe7eed1dd472a676979404dec68236423764e9e",
+    "tests/integration/sources/fixture-dev/index.cjs": "ac9eaf8f08cbf14fb637e27f5aaba255e7063cf5a97485252a00168934d6c776",
+    "tests/integration/sources/fixture-dev/package.json": "ce926f513110c36907ea95bf87eafa12d465b98f8aa7ce8f983a934a8d4b6a54",
+    "tests/integration/sources/fixture-long-0-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-long-0-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/package.json": "403930f9a50579e6e48300689f6948c51f707e6d74d4914e48edd8b6f0da943c",
+    "tests/integration/sources/fixture-long-1-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-long-1-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/package.json": "4b3e56868fd82c25db4664f093c6abdf8d75649e8d154d2130a9e19ce426fca5",
+    "tests/integration/sources/fixture-long-2-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-long-2-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/package.json": "10f7a43226b3a8acd9021a74d3d484eab8abe8c4692cf38703bdc51981e21db9",
+    "tests/integration/sources/fixture-long-3-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-long-3-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/package.json": "e069c3cd23155ee2f347f52cdd162f7d13ceeb0b5f67053d7b5b61e72e7b3bc2",
+    "tests/integration/sources/fixture-long-4-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-long-4-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/package.json": "f5f6ac814fc195a11fe61b5a50dad56805891983450ee53890a824909f20fc39",
+    "tests/integration/sources/fixture-long-5-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-long-5-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/package.json": "4f5185e8883524acb2d7d4fd572794113fc202e2fe336525a6b9c570f4fedab2",
+    "tests/integration/sources/fixture-long-6-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-long-6-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/package.json": "491cfedc63ed495b129e60fcee5eccc0b522626d0ee87013ea78d1154bba0912",
+    "tests/integration/sources/fixture-long-7-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-long-7-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/package.json": "621e22f6c8ea4cd068060d670a5dee8930fa1706751c3d9f60776cef9663a772",
+    "tests/integration/sources/fixture-long-8-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-long-8-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/package.json": "ca5a966deb2afa9efab4e831682c2ed8249c2e4eb3c66d22bb107dc1bc92c803",
+    "tests/integration/sources/fixture-long-9-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-long-9-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/package.json": "78c14e418b55e8bff3261a3cfc4d437ce4ef5edf6b23a19fa0e94723b79a49d3",
+    "tests/integration/sources/fixture-long-peer/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-long-peer/package.json": "54a2bdc64c3095772f090f287004f52b80972f2a9c5922dcd4f80cec7d77171a",
+    "tests/integration/sources/fixture-meta-blanklines/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-meta-blanklines/package.json": "553576bb29c402957f1e2389ee6c3ce47783fa61052b4c067f0a31d57b0af3bb",
+    "tests/integration/sources/fixture-meta-clip/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-meta-clip/package.json": "544bed2cc1d94e4786a39d2bdcf773e3c625659854597383edf3d0d5be0266ee",
+    "tests/integration/sources/fixture-meta-empty/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-meta-empty/package.json": "fc08b3617d9a56260e59d03f00402e29deddfae43ea174fd85d4578899b73deb",
+    "tests/integration/sources/fixture-meta-escapes/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-meta-escapes/package.json": "c3698f9adff254961ac997dab1241f58869e40cb72f35fddda96a9b57b2379ea",
+    "tests/integration/sources/fixture-meta-exponent/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-meta-exponent/package.json": "fa5294394f1bcc202275726b04974cecfc1da9a69d0fa83844801e72abf1f86d",
+    "tests/integration/sources/fixture-meta-indent/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-meta-indent/package.json": "83f4ec053b06c28be93ff976ab0559a2db4c5553cbc601101e5052daddbafdfa",
+    "tests/integration/sources/fixture-meta-keep/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-meta-keep/package.json": "f3c5f24786827ee4bd80e54161ee16624054e043bd27fb49b46d9bc6234c6cfd",
+    "tests/integration/sources/fixture-meta-newline/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-meta-newline/package.json": "ac268020b8f0d1b3d01baaeefde001913c223e76a31ac6677242d45308ad58ca",
+    "tests/integration/sources/fixture-meta-single/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-meta-single/package.json": "aeb6c444eb0e9d274bb8dfe69bbf92f0c9b3df3ac6816b2f302f3d330ea24a09",
+    "tests/integration/sources/fixture-meta-spaces/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-meta-spaces/package.json": "b5aa5d6afb7b9c29a381cae70ce4b50c787f7105991ae1878cd10aa301e9765b",
+    "tests/integration/sources/fixture-meta-strip/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-meta-strip/package.json": "182f648366dcea5709e3283c7e2fdb576a786028f22b768581810729c7d603dd",
+    "tests/integration/sources/fixture-meta-typed/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-meta-typed/package.json": "06bee9b91f3bbf8b473458644094f1abe6398c006910367f05018bb00be2cfc5",
+    "tests/integration/sources/fixture-meta-unicode/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-meta-unicode/package.json": "9453c21bc6d662c0625f1c6109e50607172a881dd8ceaf93ffabc7b9e4978a0d",
+    "tests/integration/sources/fixture-native/addon.c": "be187cc93620fab65a268caff13f376cb6506f8c2ac096a1c5a72aad6862f306",
+    "tests/integration/sources/fixture-native/build.cjs": "e406145c0562393ba879375f6e6c056740ec22561f59261bfbfb73f553982626",
+    "tests/integration/sources/fixture-native/package.json": "a3fdec420b335013e79d539bee489de5db92cde5adce2bb8ccdcd0a1791476f8",
+    "tests/integration/sources/fixture-parent/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-parent/package.json": "be8191495a7a25deefd64711ad87baad031f520b5eba4e9c33e7e8c10ea3bf9e",
+    "tests/integration/sources/fixture-peer/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-peer/package.json": "b61d8a08c5b5f2969e4a5937d0c366ae546dbfc9c301ebdaa70b2542701458ee",
+    "tests/integration/sources/fixture-platform/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-platform/package.json": "c66a094d4b7989090afee272cd1089644b45a8ced26d137b7392dcb10cc3047f",
+    "tests/integration/sources/fixture-scoped/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-scoped/package.json": "ff835c7d1e72a55530937cb1eab7110c243f28ca00263b89f7412b867b9e2735",
+    "tests/integration/sources/fixture-value/index.cjs": "cb093a73e75e84e3dcae0a17a8881057a4ac04f33345e2058f2d951bf5dafeec",
+    "tests/integration/sources/fixture-value/package.json": "3dcea568e5b7df3625a73bfe9d4d184a12e0e2f4d9bb744dac0630a6cdf6296f",
+    "tests/integration/sources/fixture-value-v2/index.cjs": "240913f3a13f4e5e7cf47863c55cc451508050a5dbfe1c710f0bdf6c8ed2c0d3",
+    "tests/integration/sources/fixture-value-v2/package.json": "d22254c65a679ea2eed06c74a4e1ee62764dfb101e15e6cb32de01a40a47367a",
+    "tests/integration/sources/pnpm-plugin-fixture/index.cjs": "8222b8169ee86f25cdccd84d340340060ae3f0cff55e2ea9d344d7c332733b71",
+    "tests/integration/sources/pnpm-plugin-fixture/package.json": "d71aa421e2109a3d8f464efcc1ec8529774d6c184c9dee561b533f3e0c08543f",
+    "tests/integration/sources/pnpm-plugin-fixture/pnpmfile.cjs": "2559fe6d2f6c889e68e5908244023db24aa453948abef350229dcced3e146c19"
+  },
+  "archives": {
+    "tests/integration/registry/@fixture/scoped/-/scoped-1.0.0-rc.1.tgz": "c3f4c9b88d26f5edd02a776e058ba6b1eda590028824af631b11665616f20098",
+    "tests/integration/registry/fixture-cycle-a/-/fixture-cycle-a-1.0.0.tgz": "8a0acf16639420cef68fe6693f670f6f972912ba111b33ee95d2384253a20ebe",
+    "tests/integration/registry/fixture-cycle-b/-/fixture-cycle-b-1.0.0.tgz": "58402dc74921138b2fb850aa882cfcc1cce3d40136cb30827343e33ca44e531e",
+    "tests/integration/registry/fixture-dev/-/fixture-dev-1.0.0.tgz": "567ebe507fa09f164d931e2141c3775cf4683b73e3a9fe4cf5272758ee176809",
+    "tests/integration/registry/fixture-long-0-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/-/fixture-long-0-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer-1.0.0.tgz": "dec955f2f4efeb82ce01d22f80377b4e03aa2723cb0aa40e249fe2f56d5f0686",
+    "tests/integration/registry/fixture-long-1-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/-/fixture-long-1-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer-1.0.0.tgz": "01fdae4f25fe3887505d8fd3b222fa186abee90865f5d8e978984a40e380ddbe",
+    "tests/integration/registry/fixture-long-2-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/-/fixture-long-2-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer-1.0.0.tgz": "72f05d89fb99f72e1cb65b5b5166eda975210117311d348678284cc18e2d9bdc",
+    "tests/integration/registry/fixture-long-3-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/-/fixture-long-3-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer-1.0.0.tgz": "7268176a27aba8af19a7b3ac489d202bc39e67600f141b9e432afed25f0d2846",
+    "tests/integration/registry/fixture-long-4-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/-/fixture-long-4-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer-1.0.0.tgz": "cffed97d936a339d6fa71067958dfe98590dbb01ff5811121b60facb898afec7",
+    "tests/integration/registry/fixture-long-5-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/-/fixture-long-5-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer-1.0.0.tgz": "71670a978da932de8448fb21218ca6926ec53d1f71d843558d24751474a47cb2",
+    "tests/integration/registry/fixture-long-6-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/-/fixture-long-6-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer-1.0.0.tgz": "271e2ef5b91b5d637b200e3e18d2d320ee457aad59a534379473bba396234ae0",
+    "tests/integration/registry/fixture-long-7-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/-/fixture-long-7-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer-1.0.0.tgz": "200945745b86b9b912f40f7ab6cc7aaa70c83c166c9402d0b888e67cde0fe9d7",
+    "tests/integration/registry/fixture-long-8-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/-/fixture-long-8-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer-1.0.0.tgz": "05281323db326497b41585a41c5c7e0a2a45fa28f417536f2297525a38aa84dd",
+    "tests/integration/registry/fixture-long-9-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer/-/fixture-long-9-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer-1.0.0.tgz": "e6a3c1bff462ed75ab5e52b0e14458cdbdd77b3833006e839d1325ef245d8246",
+    "tests/integration/registry/fixture-long-peer/-/fixture-long-peer-1.0.0.tgz": "caa308bf984a190c645db17227de208c8ffdee774fcee014e39b6386867a8828",
+    "tests/integration/registry/fixture-meta-blanklines/-/fixture-meta-blanklines-1.0.0.tgz": "208e2f03ac3a0727588fad23b9123199795fddc202918adc55fa122fdf4aca55",
+    "tests/integration/registry/fixture-meta-clip/-/fixture-meta-clip-1.0.0.tgz": "ba8097f865e22e3801ab126e706fe3ffa394876c7768a40612470a5ff4955b7d",
+    "tests/integration/registry/fixture-meta-empty/-/fixture-meta-empty-1.0.0.tgz": "a6db08651a97e2e6e40f85698ebef38d46bc71cc1b370efde31712d88e8e7886",
+    "tests/integration/registry/fixture-meta-escapes/-/fixture-meta-escapes-1.0.0.tgz": "2104a1ff831bc2cb21a1f8f114610c8046dadb40ace7048c781ef99d82b9aebd",
+    "tests/integration/registry/fixture-meta-exponent/-/fixture-meta-exponent-1.0.0.tgz": "8c6d21d6eac948adce9b89cce8c64929794f7bd24bcbc379ff9016b249e9281a",
+    "tests/integration/registry/fixture-meta-indent/-/fixture-meta-indent-1.0.0.tgz": "04947a8370b3f7f52de815fbfeab5a6c83578f97cc13ea957e1610221ef9fc22",
+    "tests/integration/registry/fixture-meta-keep/-/fixture-meta-keep-1.0.0.tgz": "24bd6322fd8850c2a0e931aad4435644f4b6bf06b0bbc7cc929945a03414bd91",
+    "tests/integration/registry/fixture-meta-newline/-/fixture-meta-newline-1.0.0.tgz": "644f754566c02f2593c69f33419d70cf93e645b6f8d969c63576bcafa783463a",
+    "tests/integration/registry/fixture-meta-single/-/fixture-meta-single-1.0.0.tgz": "ff4b82a5049578a49e70300b2911651bd81a6fb0bfdcda8455501c3b5b9606f0",
+    "tests/integration/registry/fixture-meta-spaces/-/fixture-meta-spaces-1.0.0.tgz": "2f8a10b6b40a51e44a1bf15cdff3c8830a281740ca39caf59cdc29600b4e83fa",
+    "tests/integration/registry/fixture-meta-strip/-/fixture-meta-strip-1.0.0.tgz": "9e95f67aa5311d176661fe1ccaac3f50ced35db9febcaced8753538fd2568612",
+    "tests/integration/registry/fixture-meta-typed/-/fixture-meta-typed-1.0.0.tgz": "6c51ad2ed2bd9c0da3963237325b5fb335f0015697641259ba03146135afd9b4",
+    "tests/integration/registry/fixture-meta-unicode/-/fixture-meta-unicode-1.0.0.tgz": "70a847abcb896b6bdb6379ef0e95d78d84bce1efa30fa97ccce29fcd88198fe6",
+    "tests/integration/registry/fixture-native/-/fixture-native-1.0.0.tgz": "5a09bb35999950ebd8d61a3d5b332339c227765f4a8a6dd70f3daad3fed7c961",
+    "tests/integration/registry/fixture-parent/-/fixture-parent-1.0.0.tgz": "104569129936d889c870a3361b0e7103ed9414fad944ac74175185b00bf55deb",
+    "tests/integration/registry/fixture-peer/-/fixture-peer-1.0.0.tgz": "ebea6aec4174d4634bd6ae445c54797c14d485be972cb5c757aebe9fb8b8bd9c",
+    "tests/integration/registry/fixture-platform/-/fixture-platform-1.0.0.tgz": "bf6f6184a654db178b3d2eb82fdd0e8fbdd29b54cb617028359699bf8ff68d12",
+    "tests/integration/registry/fixture-value/-/fixture-value-1.0.0.tgz": "c67d7e5b639ed151c97a29530d720e5603839d1b492995d12e0cd30843e4a078",
+    "tests/integration/registry/fixture-value/-/fixture-value-2.0.0.tgz": "c0dcf8f969e314f42753e6a97f599ed5d5358232a33eed5097d4f4e79cad116f",
+    "tests/integration/registry/pnpm-plugin-fixture/-/pnpm-plugin-fixture-1.0.0.tgz": "c6155dfb9725f4df357785a16df5865b9f9cc5028707619ca098b531b9afd281"
+  }
+}

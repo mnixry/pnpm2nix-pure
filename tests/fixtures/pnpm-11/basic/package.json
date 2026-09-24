@@ -1,0 +1,8 @@
+{
+  "name": "registry-fixture",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {"build": "node build.cjs"},
+  "dependencies": {"fixture-value": "1.0.0"},
+  "devDependencies": {"fixture-dev": "1.0.0"}
+}

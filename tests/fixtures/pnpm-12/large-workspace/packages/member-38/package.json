@@ -1,0 +1,9 @@
+{
+  "name": "fixture-member-38",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "fixture-value": "2.0.0",
+    "fixture-member-37": "workspace:*"
+  }
+}

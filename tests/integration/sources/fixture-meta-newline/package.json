@@ -1,0 +1,6 @@
+{
+  "main": "index.cjs",
+  "name": "fixture-meta-newline",
+  "version": "1.0.0",
+  "deprecated": "\n"
+}

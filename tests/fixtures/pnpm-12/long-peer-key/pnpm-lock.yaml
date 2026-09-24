@@ -1,0 +1,125 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+  peersSuffixMaxLength: 4096
+
+importers:
+
+  .:
+    dependencies:
+      fixture-long-0-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-long-1-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-long-2-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-long-3-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-long-4-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-long-5-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-long-6-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-long-7-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-long-8-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-long-9-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer:
+        specifier: 1.0.0
+        version: 1.0.0
+      fixture-long-peer:
+        specifier: 1.0.0
+        version: 1.0.0(fixture-long-0-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0)(fixture-long-1-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0)(fixture-long-2-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0)(fixture-long-3-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0)(fixture-long-4-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0)(fixture-long-5-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0)(fixture-long-6-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0)(fixture-long-7-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0)(fixture-long-8-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0)(fixture-long-9-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0)
+
+packages:
+
+  fixture-long-0-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0:
+    resolution: {integrity: sha512-gnMODEQRgFE84y1/jn11DnrWWU5Nnfix+jHHGg1POizuRf70MMZwDfcdQGrIOxy6DCeUBzTVtG2QLA9cLPAmNA==}
+
+  fixture-long-1-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0:
+    resolution: {integrity: sha512-joqOU/6OxYU2U0BZriBplaT2+ob3758XyFavHtOBmSrK+0o19ZFBYl8XaModW9vCCXYUOc7d7xD8OKsCf41F5g==}
+
+  fixture-long-2-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0:
+    resolution: {integrity: sha512-KbBCO141I+Ygzy8zYzfJob3r25QHNDsfZESrlfP2+Y0z4FcEBNAdpwU1aG+PQ+uvo5sfVQXkrnHoNFer0T3xbQ==}
+
+  fixture-long-3-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0:
+    resolution: {integrity: sha512-SjEVTDUejs4dRIAMW+BEsrUoUbLYvZnHBF1zoGpTy59XIJpBfYHGXcv6fU/xoOoWhQBL0miAxcKysmzR8WN7Pg==}
+
+  fixture-long-4-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0:
+    resolution: {integrity: sha512-JCXvci/qwCA4cU/mEaKUMVCFhl5zQUugWrfGMA7xr3LxmNPVj4GBrBrhqQYxXP6eHsTuYIQNU3Z+UWF07Dvk1A==}
+
+  fixture-long-5-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0:
+    resolution: {integrity: sha512-nqbz0FNIQTWwfkjqMsW/W45OtcpTyt7epFkl6R5/c40dkiV0OJTYP2LwFsX/adhh98A1vbVPgqmN6END4IgpKg==}
+
+  fixture-long-6-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0:
+    resolution: {integrity: sha512-AuIbmwcNtJfj1Q5oHmY7n+BVGKRt/+FV4DJRRK5Y2fxUIBIdjK5NnVdIpRd2a+9saWn9b+Q/sYkLFWT1UrHvXA==}
+
+  fixture-long-7-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0:
+    resolution: {integrity: sha512-uhvimIbsF2Nu0h0TnUT/fHZxrdzq4BKkL3cxCmtZL2kbJi/aFRbXuUmehThCRUgfwITnLM0581UC3mYOysU5Qw==}
+
+  fixture-long-8-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0:
+    resolution: {integrity: sha512-ZLHyUZLeq1QptSn+G0+XeCCaap+AVxIRQmC3LaqpPGTSu6Ut4f/ycfc+VSMzET/cdhtqRNYLIxKJtGbcgmYegg==}
+
+  fixture-long-9-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0:
+    resolution: {integrity: sha512-0Rn1qgCx4j6lNhkFhDzwao+hEklOPNJkg3HvbejOhOXExIN6e2T919+Bk8NkSoMr5an6hiHnHG0Fz1yvGWpb1Q==}
+
+  fixture-long-peer@1.0.0:
+    resolution: {integrity: sha512-R05QGOExEmPPaOCXzgzewxTp2Yy8nl8toaBwyp876118s2siNEMTScETF3eLxqELj3LVHzNTq8Z2SPXMerbb+g==}
+    peerDependencies:
+      fixture-long-0-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer: 1.0.0
+      fixture-long-1-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer: 1.0.0
+      fixture-long-2-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer: 1.0.0
+      fixture-long-3-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer: 1.0.0
+      fixture-long-4-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer: 1.0.0
+      fixture-long-5-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer: 1.0.0
+      fixture-long-6-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer: 1.0.0
+      fixture-long-7-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer: 1.0.0
+      fixture-long-8-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer: 1.0.0
+      fixture-long-9-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer: 1.0.0
+
+snapshots:
+
+  fixture-long-0-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0: {}
+
+  fixture-long-1-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0: {}
+
+  fixture-long-2-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0: {}
+
+  fixture-long-3-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0: {}
+
+  fixture-long-4-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0: {}
+
+  fixture-long-5-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0: {}
+
+  fixture-long-6-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0: {}
+
+  fixture-long-7-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0: {}
+
+  fixture-long-8-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0: {}
+
+  fixture-long-9-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0: {}
+
+  ? fixture-long-peer@1.0.0(fixture-long-0-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0)(fixture-long-1-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0)(fixture-long-2-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0)(fixture-long-3-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0)(fixture-long-4-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0)(fixture-long-5-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0)(fixture-long-6-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0)(fixture-long-7-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0)(fixture-long-8-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0)(fixture-long-9-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer@1.0.0)
+  : dependencies:
+      fixture-long-0-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer: 1.0.0
+      fixture-long-1-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer: 1.0.0
+      fixture-long-2-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer: 1.0.0
+      fixture-long-3-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer: 1.0.0
+      fixture-long-4-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer: 1.0.0
+      fixture-long-5-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer: 1.0.0
+      fixture-long-6-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer: 1.0.0
+      fixture-long-7-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer: 1.0.0
+      fixture-long-8-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer: 1.0.0
+      fixture-long-9-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer: 1.0.0

@@ -1,0 +1,8 @@
+{
+  "main": "index.cjs",
+  "name": "fixture-cycle-b",
+  "version": "1.0.0",
+  "dependencies": {
+    "fixture-cycle-a": "1.0.0"
+  }
+}

@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      fixture-native:
+        specifier: 1.0.0
+        version: 1.0.0
+
+packages:
+
+  fixture-native@1.0.0:
+    resolution: {integrity: sha512-pmP0wkxn9JMEXUYD4p/SaXoQv3RsrcpTD2zxuqUSahpIXz6d/FilJXvHWlT3xrTeg3KbPpzj25CgJnBOwrqOKg==}
+
+snapshots:
+
+  fixture-native@1.0.0: {}

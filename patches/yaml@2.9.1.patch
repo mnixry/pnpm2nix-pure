@@ -1,0 +1,14 @@
+diff --git a/dist/compose/resolve-block-scalar.js b/dist/compose/resolve-block-scalar.js
+--- a/dist/compose/resolve-block-scalar.js
++++ b/dist/compose/resolve-block-scalar.js
+@@ -19,7 +19,9 @@ function resolveBlockScalar(ctx, scalar, onError) {
+             break;
+     }
+     // shortcut for empty contents
+-    if (chompStart === 0) {
++    if (chompStart === 0 &&
++        (!header.indent || !lines.some(([indent]) =>
++            indent.length > scalar.indent + header.indent))) {
+         const value = header.chomp === '+' && lines.length > 0
+             ? '\n'.repeat(Math.max(1, lines.length - 1))
+             : '';

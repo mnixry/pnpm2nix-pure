@@ -1,0 +1,17 @@
+{
+  "main": "index.cjs",
+  "name": "fixture-long-peer",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "fixture-long-0-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer": "1.0.0",
+    "fixture-long-1-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer": "1.0.0",
+    "fixture-long-2-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer": "1.0.0",
+    "fixture-long-3-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer": "1.0.0",
+    "fixture-long-4-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer": "1.0.0",
+    "fixture-long-5-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer": "1.0.0",
+    "fixture-long-6-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer": "1.0.0",
+    "fixture-long-7-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer": "1.0.0",
+    "fixture-long-8-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer": "1.0.0",
+    "fixture-long-9-peerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeerpeer": "1.0.0"
+  }
+}

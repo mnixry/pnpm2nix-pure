@@ -1,0 +1,6 @@
+{
+  "main": "index.cjs",
+  "name": "fixture-meta-exponent",
+  "version": "1.0.0",
+  "deprecated": "1e2e3"
+}
